@@ -1,0 +1,21 @@
+@import './normalize.css';
+@import 'fonts';
+@import 'colors';
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.body {
+  font-family: 'Rubik';
+  background-color: $white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1396px;
+  margin: 0 auto;
+}
+
+@import 'header';
+@import 'main';

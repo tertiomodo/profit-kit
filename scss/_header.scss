@@ -1,0 +1,14 @@
+.header {
+  padding: 80px 0 40px 0;
+}
+
+.header__nav {
+  width: 100%;
+  max-width: 962px;
+  min-height: 40px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+}
